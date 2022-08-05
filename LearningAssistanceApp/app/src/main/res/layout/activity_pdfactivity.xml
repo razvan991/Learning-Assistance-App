@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pdfActivity">
+
+    <RelativeLayout
+        android:id="@+id/searchInPDF2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fiiblue">
+
+        <EditText
+            android:id="@+id/searchInPDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/search"
+            android:lines="1"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            tools:ignore="TextContrastCheck"
+            android:inputType="text"
+            android:autofillHints="Search word in PDF"></EditText>
+
+        <ImageButton
+            android:id="@+id/btn_searchinpdf"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_btn_send"
+            android:contentDescription="@string/searchwordbutton"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+    </RelativeLayout>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchInPDF2"></com.github.barteksc.pdfviewer.PDFView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/nextword"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/roundbutton"
+            android:src="@drawable/ic_nextword"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+
+</RelativeLayout>
