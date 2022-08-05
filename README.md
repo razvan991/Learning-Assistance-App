@@ -32,4 +32,5 @@ Usage scenarios :
 
 4. Coursepage
 
-![cursuridemo](https://user-images.githubusercontent.com/50926436/183113012-1a42bd21-5b24-4343-9962-9c03ae23f4f1.JPG)
+![cursuridemo](https://user-images.githubusercontent.com/50926436/183113012-1a42bd21-5b24-4343-9962-9c03ae23f4f1.JPG)![cursuridemo2](https://user-images.githubusercontent.com/50926436/183113072-74dec8ce-d7e8-49c9-9f69-edd9791dbf2a.JPG)
+
